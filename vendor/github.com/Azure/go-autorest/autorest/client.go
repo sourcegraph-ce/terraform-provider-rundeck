@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"net/http/cookiejar"
 	"strings"
